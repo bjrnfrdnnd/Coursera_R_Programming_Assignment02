@@ -30,7 +30,7 @@ The four "methods" defined in the function `makeCacheMatrix` are:
 1. getinverse: a method that retrieves the cached inverse 
 
 The function `cacheSolve` provides the means of calculating the inverse 
-(if the cached value is not NULL). If the cached value of the inverse is not NULL,
+(if the cached value is NULL). If the cached value of the inverse is not NULL,
 `cacheSolve` will simply retrieve the cached value.
 
 ### Conclusion
