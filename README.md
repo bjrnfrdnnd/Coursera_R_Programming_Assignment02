@@ -18,15 +18,16 @@ in reality, items in the list).
 The task is solved used by writing two functions with names given by the 
 author of the course:  
 1. `makeCacheMatrix`: returns a matrix that contains the list
-2. `cacheSolve`: allows to calculate and cache the inverse 
+1. `cacheSolve`: allows to calculate and cache the inverse 
     (in case the cache value is NULL) or retrieve the inverse 
     (in case the cache value is not NULL)
+
 The four "methods" defined in the function `makeCacheMatrix` are:
 1. set: a method to initialize the matrix
-2. get: a method that returns the matrix
-3. setinverse: a method that allows to manually override the calculation of the 
+1. get: a method that returns the matrix
+1. setinverse: a method that allows to manually override the calculation of the 
     inverse
-4. getinverse: a method that retrieves the cached inverse 
+1. getinverse: a method that retrieves the cached inverse 
 
 The function `cacheSolve` provides the means of calculating the inverse 
 (if the cached value is not NULL). If the cached value of the inverse is not NULL,
