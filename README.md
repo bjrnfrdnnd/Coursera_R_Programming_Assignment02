@@ -1,14 +1,18 @@
 ### Introduction
 
-This is the second protramming assignment of the coursera course 
+This is the second programming assignment of the coursera course 
 r-programming.
-The task is to write a matrix "object" that is able to cache the 
-result of the calculation of its inverse.
+
+### Task
+The task is to write functions that emulate a matrix "object" that is 
+able to cache the result of the calculation of its inverse.
+
+### Solution
 In order to solve this task, we make use of the operator  `<<-` 
 which can be used to assign a value to an object in an environment 
 that is different from the current environment. 
 
-
+#### Implementation
 The matrix "object" is represented by a list of 4 "methods" (which are, 
 in reality, items in the list). 
 The task is solved used by writing two functions with names given by the 
@@ -27,5 +31,10 @@ The four "methods" defined in the function `makeCacheMatrix` are:
 The function `cacheSolve` provides the means of calculating the inverse 
 (if the cached value is not NULL). If the cached value of the inverse is not NULL,
 `cacheSolve` will simply retrieve the cached value.
+
+### Conclusion
+The task was solved using minimal edits of the skeleton code provided by the 
+author that served the caching of the mean of a vector: 
+[https://github.com/ProgrammingAssignment2](https://github.com/rdpeng/ProgrammingAssignment2)
 
 
