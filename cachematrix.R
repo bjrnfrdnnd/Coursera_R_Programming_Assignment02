@@ -23,7 +23,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## This function calculates the inverse of a matrix that is contained in a list 
-## returned by makeCacheMatrix
+## returned by makeCacheMatrix.
 ## If the inverse has already been calculated, this function
 ## will return the inverse that is contained in the environment of makeCacheMatrix
 
