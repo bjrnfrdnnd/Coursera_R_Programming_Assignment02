@@ -15,7 +15,7 @@ that is different from the current environment.
 #### Implementation
 The matrix "object" is represented by a list of 4 "methods" (which are, 
 in reality, items in the list). 
-The task is solved used by writing two functions with names given by the 
+The task is solved by writing two functions with names given by the 
 author of the course:  
 1. `makeCacheMatrix`: returns a matrix that contains the list
 1. `cacheSolve`: allows to calculate and cache the inverse 
